@@ -23,15 +23,32 @@ git clone https://github.com/yourusername/pandas-for-beginners.git
 ```
 2. **Open Jupyter Notebook / Colab and run the tutorials.**<br>
 **📁 Structure**
-```shell
-📂 pandas-for-beginners  
- ├── 📄 README.md  (Introduction & Setup Guide)  
- ├── 📁 notebooks/  (Jupyter Notebooks with tutorials)  
- ├── 📁 datasets/  (Sample data for practice)  
- ├── 📄 exercises.md  (Practice problems)  
- ├── 📄 resources.md  (Useful links & documentation)  
- ├── 📁 scripts/  (Python scripts for automation)  
-```
+````
+ 📂 pandas-for-beginners  
+ ├── 📄 README.md                # Introduction & Setup Guide  
+ ├── 📁 notebooks/               # Jupyter Notebooks with tutorials  
+ │   ├── 01_series.ipynb  
+ │   ├── 02_dataframe.ipynb  
+ │   ├── 03_dataframe_method.ipynb  
+ │   ├── 04_groupby_object.ipynb  
+ ├── 📁 datasets/                # Sample datasets for practice  
+ │   ├── IPL_Matches_2008_2022.csv  
+ │   ├── batsman_runs_ipl.csv  
+ │   ├── batsman_runs_series.csv  
+ │   ├── bollywood.csv  
+ │   ├── deliveries.csv  
+ │   ├── diabetes.csv  
+ │   ├── imdb-top-1000.csv  
+ │   ├── ipl-matches.csv  
+ │   ├── items.csv  
+ │   ├── kohli_ipl.csv  
+ │   ├── movies.csv  
+ │   ├── subs.csv  
+ ├── 📁 Notes/                   # Additional reference materials  
+ │   ├── Series_and_DataFrame_Methods.pdf  
+ ├── 📄 resources.md              # Useful links & documentation  
+ ├── 📁 scripts/                  # Python scripts for automation  
+````
 ### 📢 Contributing
 Want to improve this repo? Feel free to contribute!
 
